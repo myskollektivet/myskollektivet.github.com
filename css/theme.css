@@ -11,15 +11,42 @@ p {
     padding-bottom: 20px;
 }
 
+#big-ass-text,
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Crafty Girls', cursive;
+    /* etheunthoseuth */
+    color: #555;
+}
+
 #big-ass-text {
     padding-top: 40px;
-    font-family: 'Milonga', cursive;
-    font-size: 90pt;
-    line-height: 100pt;
-
-    color: #00cc88;
+    font-size: 120px;
+    line-height: 150px;
+    font-weight: bold;
 }
 
 #big-ass-text span {
     color: #FF1493;
+}
+
+a:link,
+a:visited {
+    color: #f88;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #f66;
+}
+
+a:active {
+    color: #f33;
+}
+
+.heart-box {
+    height: 350px;
+    background-image: url('/gfx/heart_logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
